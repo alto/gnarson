@@ -1,0 +1,11 @@
+%h1 Gnarson
+
+= form_tag 'home/login', :method => :get  do
+
+  = label :login, "Login"
+  = text_field_tag :login
+
+  = label :password, "Password"
+  = text_field_tag :password
+
+  = submit_tag 'Get Feed'

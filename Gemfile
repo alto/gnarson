@@ -1,10 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
-gem 'mysql2'
+gem 'rails', '3.2.7'
 
+# stores
+gem 'mysql2'
+gem 'redis'
+
+# views
 gem 'haml'
 
+# externals
 gem 'github_api'
 
 # Gems used only for assets and not required

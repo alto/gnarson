@@ -1,0 +1,31 @@
+Tasks
+- allow user to authenticate/authorise via OAuth
+- add cron job to collect data for a day
+- answer questions using the collected data
+- deploy app
+
+Questions I want to answer
+- Which projects could be of interest for me?
+  a) which projects did my followees fork?
+  b) which projects did my followees star?
+  c) which projects did my followees started watching?
+- How popular are my projects? (+delta)
+  a) number of starrers
+  b) number of watchers
+- Which reactions followed my actions? (merged pull request, commented my commit, commented my comment or issue)
+- How active are projects I'm interested in? (watching or starred)
+- How active is the community for projects I'm interested in?
+
+Data to retrieve
+- what are my projects? (including organisations and projects with commit access)
+- what did I do?
+- which projects I'm watching?
+- which projects I've starred?
+
+Data to collect
+- number of my followers
+- number of watchers per project
+- number of starrers per project
+- number of commits per project
+- number of issues per project
+- number of pull requests per project

@@ -1,8 +1,17 @@
 gh = Github.new(login: 'login', password: 'password')
-repos = gh.repos.watching.watched
 
+# what repos I'm watching?
+repos = gh.repos.watching.watched
 repos.each_page do |page|
   page.each do |repo|
     puts repo.full_name
+  end
+end
+
+# which users does alto follow?
+following = gh.users.followers.following('alto') #.map(&:login)
+following.each_page do |page|
+  page.each do |user|
+    puts user.login
   end
 end

@@ -1,0 +1,67 @@
+{
+  "type"=>"PullRequestReviewCommentEvent",
+  "public"=>true, 
+  "url"=>"https://github.com/ruflin/Elastica/pull/157#discussion_r1241787", 
+  "payload"=>{
+    "comment"=>{
+      "original_position"=>4, 
+      "url"=>"https://api.github.com/repos/ruflin/Elastica/pulls/comments/1241787", 
+      "original_commit_id"=>"bdacde9af07294e815d138962abed9fd3311b70c", 
+      "path"=>"lib/Elastica/Index.php", 
+      "created_at"=>"2012-07-26T07:04:43Z", 
+      "position"=>4, 
+      "user"=>{
+        "url"=>"https://api.github.com/users/lavoiesl", 
+        "avatar_url"=>"https://secure.gravatar.com/avatar/02d77018ca5aa84689270899bfa8bfd5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png", 
+        "gravatar_id"=>"02d77018ca5aa84689270899bfa8bfd5", 
+        "id"=>1216046, 
+        "login"=>"lavoiesl"
+      }, 
+      "updated_at"=>"2012-07-26T07:04:43Z", 
+      "_links"=>{
+        "pull_request"=>{
+          "href"=>"https://api.github.com/repos/ruflin/Elastica/pulls/157"
+        }, 
+        "self"=>{
+          "href"=>"https://api.github.com/repos/ruflin/Elastica/pulls/comments/1241787"
+        }, 
+        "html"=>{
+          "href"=>"https://github.com/ruflin/Elastica/pull/157#discussion_r1241787"
+        }
+      }, 
+      "body"=>"Could you break down this in multiple lines ?\nThis is becoming pretty long.", 
+      "commit_id"=>"bdacde9af07294e815d138962abed9fd3311b70c", 
+      "id"=>1241787
+    }
+  }, 
+  "repository"=>{
+    "has_downloads"=>true, 
+    "owner"=>"ruflin", 
+    "homepage"=>"http://ruflin.github.com/Elastica", 
+    "watchers"=>291, 
+    "has_wiki"=>true, 
+    "pushed_at"=>"2012-07-25T23:57:44-07:00", 
+    "forks"=>92, 
+    "language"=>"PHP", 
+    "description"=>"Elastica is a PHP client for elasticsearch", 
+    "fork"=>false, 
+    "size"=>1216, 
+    "open_issues"=>22, 
+    "name"=>"Elastica", 
+    "url"=>"https://github.com/ruflin/Elastica", 
+    "has_issues"=>true, 
+    "private"=>false, 
+    "created_at"=>"2010-10-19T10:04:21-07:00"
+  }, 
+  "actor"=>"lavoiesl", 
+  "actor_attributes"=>{
+    "email"=>"xxx@muuh.com", 
+    "name"=>"Sébastien Lavoie", 
+    "location"=>"Montreal, Canada", 
+    "blog"=>"http://sebastien.lavoie.sl", 
+    "type"=>"User", 
+    "gravatar_id"=>"02d77018ca5aa84689270899bfa8bfd5", 
+    "login"=>"lavoiesl"
+  }, 
+  "created_at"=>"2012-07-26T00:04:43-07:00"
+}

@@ -1,0 +1,24 @@
+{
+  "type"=>"FollowEvent", 
+  "payload"=>{
+    "target"=>{
+      "followers"=>1, 
+      "gravatar_id"=>"271eb4c756c6eb8dcf9d51da0304185d", 
+      "repos"=>1, 
+      "login"=>"markuskoller", 
+      "id"=>1006936
+    }
+  }, 
+  "created_at"=>"2012-07-26T00:02:46-07:00", 
+  "public"=>true, 
+  "actor_attributes"=>{
+    "location"=>"Zurich", 
+    "gravatar_id"=>"71879c7a339c51566a3a880e1fb71f04", 
+    "name"=>"Ostap Cherkashin", 
+    "blog"=>"http://bandilab.org", 
+    "login"=>"ostap", 
+    "type"=>"User"
+  },
+  "actor"=>"ostap", 
+  "url"=>"https://github.com/markuskoller"
+}

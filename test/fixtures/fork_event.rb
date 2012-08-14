@@ -1,0 +1,31 @@
+{
+  "type"=>"ForkEvent", 
+  "repository"=>{
+    "watchers"=>9, 
+    "owner"=>"wangxiaomo", 
+    "has_wiki"=>true,
+    "pushed_at"=>"2012-06-10T00:13:12-07:00", 
+    "forks"=>4, 
+    "language"=>"Python", 
+    "created_at"=>"2012-06-09T23:01:07-07:00", 
+    "open_issues"=>0, 
+    "has_issues"=>true, 
+    "fork"=>false, 
+    "size"=>92, 
+    "name"=>"py-weibo-oauth2template", 
+    "url"=>"https://github.com/wangxiaomo/py-weibo-oauth2template", 
+    "has_downloads"=>true, 
+    "private"=>false, 
+    "description"=>""
+  },
+  "actor_attributes"=>{
+    "gravatar_id"=>"a7b85c327ae16f86c73e8dbd382d2b7a", 
+    "type"=>"User", 
+    "login"=>"sarices"
+  }, 
+  "actor"=>"sarices", 
+  "public"=>true, 
+  "url"=>"https://github.com/sarices/py-weibo-oauth2template", 
+  "payload"=>{}, 
+  "created_at"=>"2012-07-26T01:02:16-07:00"
+}

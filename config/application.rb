@@ -60,3 +60,5 @@ module Gnarson
     config.assets.version = '1.0'
   end
 end
+
+Dir[File.dirname(__FILE__) + "/../app/tasks/**/*.rb"].sort.each { |f| require File.expand_path(f) }

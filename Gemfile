@@ -12,6 +12,9 @@ gem 'haml'
 # externals
 gem 'github_api'
 
+# parsers
+gem 'yajl-ruby'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

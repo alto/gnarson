@@ -1,0 +1,90 @@
+{
+  "type"=>"WatchEvent", 
+  "payload"=>{
+    "action"=>"started"
+  }, 
+  "actor"=>"jkal", 
+  "url"=>"https://github.com/gabrielfalcao/unclebob", 
+  "created_at"=>"2012-07-26T01:02:10-07:00", 
+  "actor_attributes"=>{
+    "email"=>"jkal@transifex.com", 
+    "type"=>"User", 
+    "blog"=>"", 
+    "company"=>"Transifex", 
+    "name"=>"John Kalantzis", 
+    "gravatar_id"=>"1786514bccb60216fa7892f052023cc7", 
+    "login"=>"jkal"
+  }, 
+  "public"=>true, 
+  "repository"=>{
+    "watchers"=>28, 
+    "owner"=>"gabrielfalcao", 
+    "has_wiki"=>true, 
+    "pushed_at"=>"2012-07-01T09:38:20-07:00", 
+    "forks"=>4, 
+    "language"=>"Python", 
+    "created_at"=>"2011-04-19T13:18:18-07:00", 
+    "open_issues"=>2, 
+    "has_issues"=>true, 
+    "homepage"=>"", 
+    "fork"=>false, 
+    "size"=>1464, 
+    "name"=>"unclebob", 
+    "url"=>"https://github.com/gabrielfalcao/unclebob", 
+    "has_downloads"=>true, 
+    "private"=>false, 
+    "description"=>"django tool for running tests organized between unit, functional and integration"
+  }
+}
+{"type"=>"IssuesEvent", "payload"=>{"number"=>111, "issue"=>5848487, "action"=>"opened"}, "actor"=>"macfidelity", "url"=>"https://github.com/macfidelity/monoto/issues/111", "created_at"=>"2012-07-26T01:02:07-07:00", "actor_attributes"=>{"type"=>"User", "blog"=>"yafp.de", "name"=>"fidel", "gravatar_id"=>"ebe13234077c7d81a4f2e80506fdf35f", "login"=>"macfidelity"}, "public"=>true, "repository"=>{"watchers"=>1, "owner"=>"macfidelity", "has_wiki"=>true, "pushed_at"=>"2012-07-25T15:24:53-07:00", "forks"=>1, "language"=>"JavaScript", "created_at"=>"2012-07-07T04:49:07-07:00", "open_issues"=>13, "has_issues"=>true, "fork"=>false, "size"=>4799, "name"=>"monoto", "url"=>"https://github.com/macfidelity/monoto", "has_downloads"=>true, "private"=>false, "description"=>"a web-based notes keeper"}}
+{"type"=>"PushEvent", "payload"=>{"shas"=>[["7e07904c59b3ae172c5303c3edce7bc59d6d13ec", "tech@m2m.at", "assignment #4 task #6", "m2m tech", true]], "ref"=>"refs/heads/master", "head"=>"7e07904c59b3ae172c5303c3edce7bc59d6d13ec", "size"=>1}, "actor"=>"m2mtech", "url"=>"https://github.com/m2mtech/TopPlaces/compare/7bdbe74cab...7e07904c59", "created_at"=>"2012-07-26T01:02:07-07:00", "actor_attributes"=>{"type"=>"User", "blog"=>"www.m2m.at", "location"=>"Vienna, Austria", "company"=>"m2m server software gmbh", "name"=>"m2m tech", "gravatar_id"=>"11b790d1e2dfabd637e6c8860c4c1827", "login"=>"m2mtech"}, "public"=>true, "repository"=>{"watchers"=>1, "owner"=>"m2mtech", "has_wiki"=>true, "pushed_at"=>"2012-07-26T01:02:06-07:00", "forks"=>1, "language"=>"Objective-C", "created_at"=>"2012-07-24T03:26:12-07:00", "open_issues"=>0, "has_issues"=>true, "homepage"=>"http://cs193p.m2m.at/tag/topplaces/", "fork"=>false, "size"=>240, "name"=>"TopPlaces", "url"=>"https://github.com/m2mtech/TopPlaces", "has_downloads"=>true, "private"=>false, "description"=>"TopPlaces (Flickr App) of cs193p"}}
+{"type"=>"DownloadEvent", "payload"=>{"url"=>"https://github.com/downloads/Tellus/pyro-places/pyro-places.1.0rc.zip", "id"=>281150}, "actor"=>"Tellus", "url"=>"https://github.com/downloads/Tellus/pyro-places/pyro-places.1.0rc.zip", "created_at"=>"2012-07-26T01:02:05-07:00", "actor_attributes"=>{"type"=>"User", "blog"=>"www.j-space.dk", "location"=>"Denmark", "company"=>"The Homestead", "name"=>"Johannes Borresen", "gravatar_id"=>"75a5758b94c89d83951ed0789ea3f34c", "login"=>"Tellus"}, "public"=>true, "repository"=>{"watchers"=>1, "owner"=>"Tellus", "has_wiki"=>true, "pushed_at"=>"2012-07-26T00:50:37-07:00", "forks"=>1, "language"=>"PHP", "created_at"=>"2012-07-24T14:41:39-07:00", "open_issues"=>3, "has_issues"=>true, "fork"=>false, "size"=>189, "name"=>"pyro-places", "url"=>"https://github.com/Tellus/pyro-places", "has_downloads"=>true, "private"=>false, "description"=>"A Google Maps and locations module for PyroCMS. Very small, needs translations."}}
+{
+  "type"=>"PushEvent", 
+  "payload"=>{
+    "shas"=>[
+      ["d7b08ee892b053cc99e4ace231254ce54ede9383", "build@linux-indicator", "Automated build", "Automated Build", true]
+    ], 
+    "ref"=>"refs/heads/master", 
+    "head"=>"d7b08ee892b053cc99e4ace231254ce54ede9383", 
+    "size"=>1
+  }, 
+  "actor"=>"IVPR", 
+  "url"=>"https://github.com/IVPR/Weave-Binaries/compare/1c3ca332d8...d7b08ee892", 
+  "created_at"=>"2012-07-26T01:02:05-07:00", 
+  "actor_attributes"=>{
+    "type"=>"User", 
+    "blog"=>"http://www.uml.edu/centers/ivpr/", 
+    "location"=>"University of Massachusetts Lowell", 
+    "company"=>"Institute for Visualization and Perception Research", 
+    "name"=>"UMass Lowell IVPR", 
+    "gravatar_id"=>"6cf66adca08d6a6dcd771d07d85c4efd", 
+    "login"=>"IVPR"
+  }, 
+  "public"=>true, 
+  "repository"=>{
+    "watchers"=>1, 
+    "owner"=>"IVPR", 
+    "has_wiki"=>false, 
+    "pushed_at"=>"2012-07-26T01:02:04-07:00", 
+    "forks"=>1, 
+    "language"=>"JavaScript", 
+    "created_at"=>"2011-06-07T08:40:28-07:00", 
+    "open_issues"=>0, 
+    "has_issues"=>false, 
+    "homepage"=>"http://info.oicweave.org/", 
+    "fork"=>false, 
+    "size"=>427736, 
+    "name"=>"Weave-Binaries", 
+    "url"=>"https://github.com/IVPR/Weave-Binaries", 
+    "has_downloads"=>true, 
+    "private"=>false, 
+    "description"=>"Here you can download a nightly build of Weave. Check the README.txt for the link."
+  }
+}
+{"type"=>"PushEvent", "payload"=>{"shas"=>[["2a8299bb4a7b62bb67a5bed8a32facb2e4b80835", "sam.day@wotifgroup.com", "blog refactors.", "Sam Day", true]], "ref"=>"refs/heads/master", "head"=>"2a8299bb4a7b62bb67a5bed8a32facb2e4b80835", "size"=>1}, "actor"=>"samcday", "url"=>"https://github.com/samcday/samcday.com.au/compare/b81e8b962a...2a8299bb4a", "created_at"=>"2012-07-26T01:02:05-07:00", "actor_attributes"=>{"type"=>"User", "blog"=>"http://sam.is-super-awesome.com", "location"=>"Brisbane, Australia", "company"=>"Wotif Group", "name"=>"Sam", "gravatar_id"=>"e7c064c43f9a2e3deaae9488e51a46ac", "login"=>"samcday"}, "public"=>true, "repository"=>{"watchers"=>1, "owner"=>"samcday", "has_wiki"=>true, "pushed_at"=>"2012-07-26T01:02:04-07:00", "forks"=>1, "language"=>"CoffeeScript", "created_at"=>"2012-07-22T04:49:52-07:00", "open_issues"=>0, "has_issues"=>true, "fork"=>false, "size"=>232, "name"=>"samcday.com.au", "url"=>"https://github.com/samcday/samcday.com.au", "has_downloads"=>true, "private"=>false, "description"=>"samcday.com.au - Cork powered"}}
+{"type"=>"PushEvent", "payload"=>{"shas"=>[["e493f89c1409c51d995edfa3ab74fa45e340dbc6", "richard@newcastlemarketingservices.co.uk", "default content type for requests - json", "Richard Thompson", true], ["e1b964312489b17483f3ad291504cad0d0714862", "richard@newcastlemarketingservices.co.uk", "Merge branch 'master' of https://github.com/BedeGaming/tonic", "Richard Thompson", true]], "ref"=>"refs/heads/master", "head"=>"e1b964312489b17483f3ad291504cad0d0714862", "size"=>2}, "actor"=>"rich-bede", "url"=>"https://github.com/BedeGaming/tonic/compare/723b55c0ba...e1b9643124", "created_at"=>"2012-07-26T01:02:05-07:00", "actor_attributes"=>{"type"=>"User", "gravatar_id"=>"7af32be536d05f99e473d0018527938d", "login"=>"rich-bede"}, "public"=>true, "repository"=>{"watchers"=>1, "owner"=>"BedeGaming", "has_wiki"=>true, "pushed_at"=>"2012-07-26T01:02:03-07:00", "forks"=>0, "language"=>"PHP", "created_at"=>"2012-07-18T04:21:37-07:00", "open_issues"=>0, "has_issues"=>false, "homepage"=>"http://peej.github.com/tonic/", "fork"=>true, "size"=>120, "name"=>"tonic", "url"=>"https://github.com/BedeGaming/tonic", "has_downloads"=>false, "private"=>false, "organization"=>"BedeGaming", "description"=>"RESTful PHP library/framework"}}
+{"repository"=>{"watchers"=>1, "owner"=>"carsontang", "has_wiki"=>true, "pushed_at"=>"2012-07-26T01:02:17-07:00", "forks"=>0, "created_at"=>"2012-07-26T01:02:16-07:00", "open_issues"=>0, "has_issues"=>true, "fork"=>false, "size"=>0, "name"=>"facebook_feed", "url"=>"https://github.com/carsontang/facebook_feed", "has_downloads"=>true, "private"=>false, "description"=>"A Ruby wrapper around Facebook feed APIs. Currently, Facebook Group and Feed APIs are supported."}, "actor_attributes"=>{"email"=>"tang.carson@gmail.com", "gravatar_id"=>"55610916cc013e6ca47eae17f088625f", "type"=>"User", "login"=>"carsontang", "name"=>"Carson"}, "actor"=>"carsontang", "public"=>true, "type"=>"CreateEvent", "url"=>"https://github.com/carsontang/facebook_feed", "payload"=>{"ref"=>nil, "ref_type"=>"repository", "master_branch"=>"master", "description"=>"A Ruby wrapper around Facebook feed APIs. Currently, Facebook Group and Feed APIs are supported."}, "created_at"=>"2012-07-26T01:02:17-07:00"}
+{"repository"=>{"watchers"=>9, "owner"=>"wangxiaomo", "has_wiki"=>true, "pushed_at"=>"2012-06-10T00:13:12-07:00", "forks"=>4, "language"=>"Python", "created_at"=>"2012-06-09T23:01:07-07:00", "open_issues"=>0, "has_issues"=>true, "fork"=>false, "size"=>92, "name"=>"py-weibo-oauth2template", "url"=>"https://github.com/wangxiaomo/py-weibo-oauth2template", "has_downloads"=>true, "private"=>false, "description"=>""}, "actor_attributes"=>{"gravatar_id"=>"a7b85c327ae16f86c73e8dbd382d2b7a", "type"=>"User", "login"=>"sarices"}, "actor"=>"sarices", "public"=>true, "type"=>"ForkEvent", "url"=>"https://github.com/sarices/py-weibo-oauth2template", "payload"=>{}, "created_at"=>"2012-07-26T01:02:16-07:00"}
+{"repository"=>{"watchers"=>6, "owner"=>"MiCode", "has_wiki"=>true, "pushed_at"=>"2012-07-26T01:02:10-07:00", "forks"=>6, "language"=>"Java", "created_at"=>"2012-03-14T19:42:49-07:00", "open_issues"=>1, "has_issues"=>true, "homepage"=>"", "fork"=>false, "size"=>436, "name"=>"patchrom_honor", "url"=>"https://github.com/MiCode/patchrom_honor", "has_downloads"=>true, "private"=>false, "organization"=>"MiCode", "description"=>"All the stuff related to the miui porting device Huawei Honor"}, "actor_attributes"=>{"gravatar_id"=>"fb3d07f6c2c0e9520d8fb9c58c06b064", "type"=>"User", "login"=>"yu88my"}, "actor"=>"yu88my", "public"=>true, "type"=>"PushEvent", "url"=>"https://github.com/MiCode/patchrom_honor/compare/848a76bbdb...3c4f7cbd21", "payload"=>{"shas"=>[["86afa0f45eadb3ddc640c45ae62eb8475462526f", "yumingyang@xiaomi.com", "Change I580e858b: prevent sound effect caused by volume key up after screenshot\n\nChange-Id: I583dd6a2936d7a5c1cdb88f79dce32a4426c049d", "yumingyang", true], ["af4677979619e4c0bcc631bcf9ac16c7897c3389", "yumingyang@xiaomi.com", "Change Iab9e1329 and I6fcf3f31: support advanced font setting mode by leveraging UI mode\n\nChange-Id: I86bedf7f3f9592429a8ddb14a68df1ab70ed3d16", "yumingyang", true], ["26a3909b3c2cbcc693e62b61513e3f129b974ebb", "yumingyang@xiaomi.com", "catch exception for clipboard service in textvidew\n\nChange-Id: I5c42ade45def949d95d2b67f63de1437068e210a", "yumingyang", true], ["3c4f7cbd21b5e602465915b8a806f701dc9e7c41", "yumingyang@xiaomi.com", "fix FC when change lock screen\n\nChange-Id: I61411969533d50ce490e3f62c10c7a52453c823f", "yumingyang", true]], "size"=>4, "ref"=>"refs/heads/ics", "head"=>"3c4f7cbd21b5e602465915b8a806f701dc9e7c41"}, "created_at"=>"2012-07-26T01:02:15-07:00"}
+{"repository"=>{"watchers"=>1, "owner"=>"mnin", "has_wiki"=>true, "pushed_at"=>"2012-07-26T01:02:09-07:00", "forks"=>0, "language"=>"Objective-C", "created_at"=>"2011-10-17T07:21:57-07:00", "open_issues"=>0, "has_issues"=>false, "homepage"=>"http://www.crittercism.com", "fork"=>true, "size"=>2272, "name"=>"Crittercism-SDK", "url"=>"https://github.com/mnin/Crittercism-SDK", "has_downloads"=>true, "private"=>false, "description"=>"iPhone Support SDK - crash reporting, customer service, and feedback"}, "actor_attributes"=>{"gravatar_id"=>"d98ea0eb8536a79663c786336e54f06b", "type"=>"User", "blog"=>"http://www.mnin.me/", "location"=>"", "login"=>"mnin"}, "actor"=>"mnin", "public"=>true, "type"=>"PushEvent", "url"=>"https://github.com/mnin/Crittercism-SDK/compare/e9695e2563...48c3b4e940", "payload"=>{"shas"=>[["48c3b4e9404292fa3207c07d0edbe128f96689bb", "martin.wilhelmi@akra.de", "bump to v3.3.0", "Martin Wilhelmi", true]], "size"=>1, "ref"=>"refs/heads/rc_crashonly", "head"=>"48c3b4e9404292fa3207c07d0edbe128f96689bb"}, "created_at"=>"2012-07-26T01:02:16-07:00"}

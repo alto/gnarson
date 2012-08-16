@@ -4,13 +4,15 @@ require 'yajl'
 
 KNOWN_EVENTS = %w(GollumEvent PushEvent IssuesEvent IssueCommentEvent WatchEvent ForkEvent CreateEvent DownloadEvent GistEvent FollowEvent CommitCommentEvent MemberEvent PublicEvent PullRequestReviewCommentEvent DeleteEvent PullRequestEvent)
 
-1.times.each do |hour|
-  puts "processing hour #{hour}"
-  gz = open("http://data.githubarchive.org/2012-07-26-#{hour}.json.gz")
+date = ARGV[0]
+date ||= "2012-07-26"
+24.times.each do |hour|
+  puts "processing date #{date}, hour #{hour}"
+  gz = open("http://data.githubarchive.org/#{date}-#{hour}.json.gz")
   js = Zlib::GzipReader.new(gz).read
   puts "  fetched file"
 
-  i = 0; stop_at = 10000
+  i = 0; stop_at = 100000
 
   types = {}
   

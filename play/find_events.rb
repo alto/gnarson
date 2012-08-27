@@ -4,6 +4,9 @@ require 'yajl'
 
 KNOWN_EVENTS = %w(GollumEvent PushEvent IssuesEvent IssueCommentEvent WatchEvent ForkEvent CreateEvent DownloadEvent GistEvent FollowEvent CommitCommentEvent MemberEvent PublicEvent PullRequestReviewCommentEvent DeleteEvent PullRequestEvent)
 
+#
+# usage: ruby play/find_events.rb 2012-08-26
+#
 date = ARGV[0]
 date ||= "2012-07-26"
 24.times.each do |hour|

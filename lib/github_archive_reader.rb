@@ -5,7 +5,7 @@ require 'yajl'
 class GithubArchiveReader
 
   def initialize(year, month, day, hour)
-    @date = sprintf("%d-%02d-%d-%d", year, month, day, hour)
+    @date = sprintf("%d-%02d-%02d-%d", year, month, day, hour)
   end
 
   def each(&block)
@@ -13,7 +13,9 @@ class GithubArchiveReader
   end
 
   def retrieve_json
-    gz = open("http://data.githubarchive.org/#{@date}.json.gz")
+    file = "http://data.githubarchive.org/#{@date}.json.gz"
+    # puts "loading file #{file}"
+    gz = open(file)
     js = Zlib::GzipReader.new(gz).read
   end
 

@@ -47,4 +47,5 @@ gem 'jquery-rails'
 group :test do
   gem 'shoulda'
   gem 'mocha'
+  gem 'fakeweb'
 end

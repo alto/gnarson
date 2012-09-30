@@ -1,2 +1,84 @@
-{"payload":{"head":"8e08056ccf064bbdf09632c5a39799756888b05d","size":2,"ref":"refs/heads/master","shas":[["941b9b6b2ce69a023c7ef331e12437245db9a9d2","alexander@demin.ws","Interview with Charles Wetherell.","Alexander",true],["8e08056ccf064bbdf09632c5a39799756888b05d","alexander@demin.ws","Added a link to Charles Wethrell's interview.","Alexander",true]]},"public":true,"created_at":"2012-08-26T01:00:01-07:00","actor_attributes":{"blog":"demin.ws","name":"Alexander","gravatar_id":"bed6ecf7ae0f51768dbf81eb7ed6c25b","email":"xxx@booh.au","login":"begoon","type":"User"},"type":"PushEvent","actor":"begoon","url":"https://github.com/begoon/begoon.github.com/compare/73b6e30a96...8e08056ccf","repository":{"homepage":"http://demin.ws/","owner":"begoon","created_at":"2011-12-17T16:19:34-08:00","description":"Hosting of the \"Programming DIY / Программирование - это просто!\" blog","has_wiki":true,"pushed_at":"2012-08-26T01:00:00-07:00","watchers":11,"stargazers":11,"forks":3,"open_issues":0,"fork":false,"size":1640,"name":"begoon.github.com","url":"https://github.com/begoon/begoon.github.com","has_issues":true,"private":false,"language":"JavaScript","has_downloads":true}}
-{"payload":{"ref_type":"repository","ref":null,"master_branch":"master","description":"This is Ruby on Rails Application."},"public":true,"created_at":"2012-08-26T01:00:01-07:00","actor_attributes":{"blog":"http://blog.livedoor.jp/kkz_yk-namekomac/","name":"kkz_interface","location":"Okinawa in Japan","gravatar_id":"f79b66b037e3fd7b75bbb8794b513f2f","login":"kkz-yk","type":"User"},"type":"CreateEvent","actor":"kkz-yk","url":"https://github.com/kkz-yk/myApp","repository":{"owner":"kkz-yk","created_at":"2012-08-26T01:00:01-07:00","description":"This is Ruby on Rails Application.","has_wiki":true,"pushed_at":"2012-08-26T01:00:01-07:00","watchers":0,"stargazers":0,"forks":0,"open_issues":0,"fork":false,"size":0,"name":"myApp","url":"https://github.com/kkz-yk/myApp","has_issues":true,"private":false,"has_downloads":true}}
+{
+  "payload":{
+    "head":"8e08056ccf064bbdf09632c5a39799756888b05d",
+    "size":2,
+    "ref":"refs/heads/master",
+    "shas":[
+      ["941b9b6b2ce69a023c7ef331e12437245db9a9d2","alexander@demin.ws","Interview with Charles Wetherell.","Alexander",true],
+      ["8e08056ccf064bbdf09632c5a39799756888b05d","alexander@demin.ws","Added a link to Charles Wethrell's interview.","Alexander",true]
+    ]
+  },
+  "public":true,
+  "created_at":"2012-08-26T01:00:01-07:00",
+  "actor_attributes":{
+    "blog":"demin.ws",
+    "name":"Alexander",
+    "gravatar_id":"bed6ecf7ae0f51768dbf81eb7ed6c25b",
+    "email":"xxx@booh.au",
+    "login":"begoon",
+    "type":"User"
+  },
+  "type":"PushEvent",
+  "actor":"begoon",
+  "url":"https://github.com/begoon/begoon.github.com/compare/73b6e30a96...8e08056ccf",
+  "repository":{
+    "homepage":"http://demin.ws/",
+    "owner":"begoon",
+    "created_at":"2011-12-17T16:19:34-08:00",
+    "description":"Hosting of the \"Programming DIY / Программирование - это просто!\" blog",
+    "has_wiki":true,
+    "pushed_at":"2012-08-26T01:00:00-07:00",
+    "watchers":11,
+    "stargazers":11,
+    "forks":3,
+    "open_issues":0,
+    "fork":false,
+    "size":1640,
+    "name":"begoon.github.com",
+    "url":"https://github.com/begoon/begoon.github.com",
+    "has_issues":true,
+    "private":false,
+    "language":"JavaScript",
+    "has_downloads":true
+  }
+}
+{
+  "payload":{
+    "ref_type":"repository",
+    "ref":null,
+    "master_branch":"master",
+    "description":"This is Ruby on Rails Application."
+  },
+  "public":true,
+  "created_at":"2012-08-26T01:00:01-07:00",
+  "actor_attributes":{
+    "blog":"http://blog.livedoor.jp/kkz_yk-namekomac/",
+    "name":"kkz_interface",
+    "location":"Okinawa in Japan",
+    "gravatar_id":"f79b66b037e3fd7b75bbb8794b513f2f",
+    "login":"kkz-yk",
+    "type":"User"
+  },
+  "type":"CreateEvent",
+  "actor":"kkz-yk",
+  "url":"https://github.com/kkz-yk/myApp",
+  "repository":{
+    "owner":"kkz-yk",
+    "created_at":"2012-08-26T01:00:01-07:00",
+    "description":
+    "This is Ruby on Rails Application.",
+    "has_wiki":true,
+    "pushed_at":"2012-08-26T01:00:01-07:00",
+    "watchers":0,
+    "stargazers":0,
+    "forks":0,
+    "open_issues":0,
+    "fork":false,
+    "size":0,
+    "name":"myApp",
+    "url":"https://github.com/kkz-yk/myApp",
+    "has_issues":true,
+    "private":false,
+    "has_downloads":true
+  }
+}

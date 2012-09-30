@@ -1,5 +1,3 @@
-require 'open-uri'
-require 'yajl'
 module Tasks
   class EventLoader < Base
     class << self
@@ -43,9 +41,6 @@ module Tasks
         # puts "fetch_and_extract(#{date}, #{hour})"
         log "  processing hour #{hour}"
         reader = GithubArchiveReader.new(date.year, date.month, date.day, hour)
-        # gz = open("http://data.githubarchive.org/#{date2key(date)}-#{hour}.json.gz")
-        # js = Zlib::GzipReader.new(gz).read
-        # log "    fetched file"
 
         i = 0
         stop_at = nil
@@ -55,7 +50,6 @@ module Tasks
         watches = {}
 
         reader.each do |event|
-        # Yajl::Parser.parse(js) do |event|
           break if stop_at && i > stop_at
 
           # puts event.class # a Hash
@@ -69,13 +63,7 @@ module Tasks
 
           case event['type']
           when 'PushEvent'
-            # Worms::PushEventWorm.read(event, date)
-            if event['repository']
-              key = "#{event['repository']['owner']}/#{event['repository']['name']}"
-              Gnarson.redis.incr("#{Rails.env}:github:repos:#{key}:#{date2key(date)}")
-            else
-              puts "PushEvent didn't contain a repository: #{event.inspect}"
-            end
+            Worms::PushEventWorm.read(event, date)
           when 'WatchEvent'
             if event['repository']
               key = "#{event['repository']['owner']}/#{event['repository']['name']}"

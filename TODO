@@ -1,6 +1,7 @@
 Tasks
-- allow user to authenticate/authorise via OAuth
 - add cron job to collect data for a day
+
+- allow user to authenticate/authorise via OAuth
 - answer questions using the collected data
 - deploy app
 

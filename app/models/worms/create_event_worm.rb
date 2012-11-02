@@ -1,13 +1,13 @@
 module Worms
-  class CommitCommentEventWorm < Base
+  class CreateEventWorm < Base
 
     def self.read(event, date) # hash, date
       if event['repository']
         repo = "#{event['repository']['owner']}/#{event['repository']['name']}"
-        key = "#{Rails.env}:github:commit_comment:#{repo}:#{date2key(date)}"
+        key = "#{Rails.env}:github:create:#{repo}:#{date2key(date)}"
         Gnarson.redis.incr(key)
       else
-        puts "CommitCommentEvent didn't contain a repository: #{event.inspect}"
+        puts "CreateEvent didn't contain a repository: #{event.inspect}"
       end
     end
 

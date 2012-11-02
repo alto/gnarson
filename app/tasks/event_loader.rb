@@ -66,6 +66,8 @@ module Tasks
           case event['type']
           when 'CommitCommentEvent'
             Worms::CommitCommentEventWorm.read(event, date)
+          when 'CreateEvent'
+            Worms::CreateEventWorm.read(event, date)
           when 'PushEvent'
             Worms::PushEventWorm.read(event, date)
           when 'WatchEvent'

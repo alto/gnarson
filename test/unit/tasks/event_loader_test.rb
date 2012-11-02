@@ -12,18 +12,20 @@ class Tasks::EventLoaderTest < ActiveSupport::TestCase
     should 'work' do
       Tasks::EventLoader.update_events(Date.new(2012,1,1), Date.new(2012,1,1))
 
-      assert_equal 96, Gnarson.redis.get('test:github:items:2012-01-01').to_i
-      assert_equal  4, Gnarson.redis.get('test:github:items:2012-01-01-0').to_i
-      assert_equal  4, Gnarson.redis.get('test:github:items:2012-01-01-23').to_i
+      num_events = 4
+      assert_equal 24 * num_events, Gnarson.redis.get('test:github:items:2012-01-01').to_i
+      assert_equal      num_events, Gnarson.redis.get('test:github:items:2012-01-01-0').to_i
+      assert_equal      num_events, Gnarson.redis.get('test:github:items:2012-01-01-23').to_i
 
       assert_equal 24, Gnarson.redis.get('test:github:types:PushEvent:2012-01-01').to_i
       assert_equal 24, Gnarson.redis.get('test:github:types:CreateEvent:2012-01-01').to_i
       assert_equal 24, Gnarson.redis.get('test:github:types:WatchEvent:2012-01-01').to_i
       assert_equal 24, Gnarson.redis.get('test:github:types:CommitCommentEvent:2012-01-01').to_i
 
-      assert_equal 24, Gnarson.redis.get('test:github:repos:begoon/begoon.github.com:2012-01-01').to_i
-      assert_equal 24, Gnarson.redis.get('test:github:watches:rsms/kod:2012-01-01').to_i
-      assert_equal 24, Gnarson.redis.get('test:github:commit_comments:ktei/gitcode:2012-01-01').to_i
+      assert_equal 24, Gnarson.redis.get('test:github:push:begoon/begoon.github.com:2012-01-01').to_i
+      assert_equal 24, Gnarson.redis.get('test:github:create:kkz-yk/myApp:2012-01-01').to_i
+      assert_equal 24, Gnarson.redis.get('test:github:watch:rsms/kod:2012-01-01').to_i
+      assert_equal 24, Gnarson.redis.get('test:github:commit_comment:ktei/gitcode:2012-01-01').to_i
     end
 
   end

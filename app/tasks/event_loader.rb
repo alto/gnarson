@@ -64,6 +64,8 @@ module Tasks
 
           # TODO: do all this in parallel? (e.g. using Celluloid) [thorsten, 2012-11-02]
           case event['type']
+          when 'CommitCommentEvent'
+            Worms::CommitCommentEventWorm.read(event, date)
           when 'PushEvent'
             Worms::PushEventWorm.read(event, date)
           when 'WatchEvent'

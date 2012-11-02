@@ -53,6 +53,7 @@ module Tasks
           break if stop_at && i > stop_at
 
           # puts event.class # a Hash
+          # puts event['type']
 
           # count processed items
           Gnarson.redis.incr("#{Rails.env}:github:items:#{date2key(date)}")

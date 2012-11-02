@@ -11,7 +11,7 @@ class GithubArchiveReaderTest < ActiveSupport::TestCase
     should 'succeed' do
       events = []
       @reader.each {|event| events << event['type']}
-      assert_equal %w(PushEvent CreateEvent), events
+      assert_equal %w(PushEvent CreateEvent WatchEvent), events
     end
   end
 

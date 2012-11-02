@@ -18,7 +18,7 @@ date ||= "2012-07-26"
   i = 0; stop_at = 100000
 
   types = {}
-  
+
   Yajl::Parser.parse(js) do |event|
     break if i > stop_at
     next if KNOWN_EVENTS.include?(event['type'])

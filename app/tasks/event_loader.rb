@@ -61,16 +61,12 @@ module Tasks
           # count types
           Gnarson.redis.incr("#{Rails.env}:github:types:#{event['type']}:#{date2key(date)}")
 
+          # TODO: do all this in parallel? (e.g. using Celluloid) [thorsten, 2012-11-02]
           case event['type']
           when 'PushEvent'
             Worms::PushEventWorm.read(event, date)
           when 'WatchEvent'
-            if event['repository']
-              key = "#{event['repository']['owner']}/#{event['repository']['name']}"
-              Gnarson.redis.incr("#{Rails.env}:github:watches:#{key}:#{date2key(date)}")
-            else
-              puts "WatchEvent didn't contain a repository: #{event.inspect}"
-            end
+            Worms::WatchEventWorm.read(event, date)
           end
 
           i += 1
